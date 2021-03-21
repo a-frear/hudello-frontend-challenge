@@ -24,6 +24,7 @@ button {
 
 input, select {
   padding: 10px;
+  font-size: 24px;
 }
 
 form{
