@@ -7,7 +7,6 @@ export default function AnswerList() {
   const { birthday } = useContext(HelloContext);
   const { pronouns } = useContext(HelloContext);
   const { food } = useContext(HelloContext);
-  const { count } = useContext(HelloContext);
 
   const response = [];
 
