@@ -50,15 +50,3 @@ export default function Home() {
     </div>
   );
 }
-
-// export async function getServerSideProps(Context) {
-//   return {
-//       props: {
-//           initialCount: 0,
-//           initialName: '',
-//           initialBirthday: '',
-//           initialPronouns: '',
-//           initialFood: '',
-//       },
-//   };
-// }
