@@ -81,10 +81,6 @@
   padding: 10px;
 }
 
-.calendar {
-  display: flex;
-}
-
 .dateInput {
   margin-top: 10px;
 }
@@ -103,6 +99,9 @@
     margin: 0em;
     margin-top: 3em;
     border: none;
+  }
+  .calendar {
+    display: flex;
   }
 
 }
