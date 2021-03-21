@@ -24,7 +24,7 @@ export default function Home() {
         <section className={styles.speechbubble}>
           <h1 className={styles.title}>Hey there!</h1>
           <p className={styles.robotvoice}>
-            My name is Hudello Bot.
+            My name is <span>Hudello Bot.</span>
           </p>
           <ul className={styles.answerList}>
             <AnswerList />
