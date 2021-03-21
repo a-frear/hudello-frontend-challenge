@@ -1,12 +1,12 @@
-import '../styles/globals.css'
-import { HelloProvider } from '../context/context.js';
+import "../styles/globals.css";
+import { HelloProvider } from "../context/context.js";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <HelloProvider >
+    <HelloProvider>
       <Component {...pageProps} />
     </HelloProvider>
-  ) 
+  );
 }
 
-export default MyApp
+export default MyApp;

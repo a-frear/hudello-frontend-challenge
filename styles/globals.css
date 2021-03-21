@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Nunito', sans-serif;
-  background: #B084CC;
+  font-family: "Nunito", sans-serif;
+  background: #b084cc;
   text-align: center;
 }
 
@@ -12,22 +12,23 @@ body {
 }
 
 button {
-    margin: 15px;
-    background-color: #05A8AA;
-    color: white;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    font-weight: bolder;
-    font-family: 'Nunito', sans-serif;
+  margin: 15px;
+  background-color: #05a8aa;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
 }
 
-input, select {
+input,
+select {
   padding: 10px;
   font-size: 24px;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -40,16 +40,16 @@
 .speechbubble {
   display: flex;
   flex-direction: column;
-  position:relative;
+  position: relative;
   max-width: 600px;
   padding: 10px;
   margin: 3em;
-  background-color:#FBC6CA;
+  background-color: #fbc6ca;
   color: #190933;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  border: 10px solid #F9C846;
+  border: 10px solid #f9c846;
 }
 
 .robotvoice {
@@ -75,7 +75,7 @@
   padding: 10px;
   font-size: 30px;
   text-align: center;
-  color: #EA5D0B;
+  color: #ea5d0b;
 }
 
 .food {
@@ -87,7 +87,7 @@
   margin-top: 10px;
 }
 
-.desc{
+.desc {
   font-size: 18px;
   margin-top: -10px;
 }
@@ -110,5 +110,4 @@
   .calendar {
     display: flex;
   }
-
 }

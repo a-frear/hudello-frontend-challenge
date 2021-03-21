@@ -1,19 +1,13 @@
-import { useContext } from 'react'
-import { HelloContext } from '../context/context'
+import { useContext } from "react";
+import { HelloContext } from "../context/context";
 
 export default function NameForm() {
+  const { addName } = useContext(HelloContext);
 
-const { addName } = useContext(HelloContext)
-
-    return (
-        <form onSubmit={(e) => addName(e)}>
-            <input 
-            type="text"
-            id="name"
-            name="name"
-            maxLength="30"
-            required></input>
-            <button>Submit</button>
-        </form>
-    )
+  return (
+    <form onSubmit={(e) => addName(e)}>
+      <input type="text" id="name" name="name" maxLength="30" required></input>
+      <button>Submit</button>
+    </form>
+  );
 }
