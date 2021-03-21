@@ -14,29 +14,29 @@ export default function Question() {
 
   const questions = [
     {
-      questionText: `What's your name?`,
+      text: `What's your name?`,
       form: <NameForm />,
     },
     {
-      questionText: `When's your birthday?`,
+      text: `When's your birthday?`,
       form: <SelectDate />,
     },
     {
-      questionText: `What are your pronouns?`,
+      text: `What are your pronouns?`,
       form: <SelectPronouns />,
     },
     {
-      questionText: `Choose your favorite:`,
+      text: `Choose your favorite:`,
       form: <SelectFood />,
     },
     {
-      questionText: `Thanks, ${name}!`,
+      text: `Thanks, ${name}!`,
       form: "",
     },
   ];
   return (
     <>
-      <h2 className={styles.question}>{questions[i].questionText}</h2>
+      <h2 className={styles.question}>{questions[i].text}</h2>
       {questions[i].form}
     </>
   );
