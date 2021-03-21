@@ -32,7 +32,7 @@ export default function SelectDate() {
   );
   return (
     <>
-      <p>Type a day or pick from the calendar.</p>
+      <p className={styles.desc}>Type a day or pick from the calendar.</p>
       <DayPicker className={styles.calendar} {...input.dayPickerProps} showWeekNumber footer={footer} />
     </>
   );
