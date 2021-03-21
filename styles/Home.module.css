@@ -71,16 +71,22 @@
 
 .answerListItem {
   list-style: none;
-  margin-left: -50px;
+  margin-left: -40px;
   padding: 10px;
   font-size: 30px;
   text-align: center;
   color: #440381;
+  font-weight: bold;
 }
 
 .food {
   font-size: 50px;
   padding: 10px;
+}
+
+.calendar {
+  display: flex;
+  margin-left: 35px;
 }
 
 .dateInput {
@@ -90,6 +96,7 @@
 .desc {
   font-size: 18px;
   margin-top: -10px;
+  font-style: italic;
 }
 
 .footer {
@@ -100,6 +107,12 @@
   align-items: center;
 }
 
+@media (max-width: 600px) {
+  .calendar {
+    margin-left: 20px;
+  }
+}
+
 @media (max-width: 350px) {
   .speechbubble {
     padding: 1px;
@@ -108,6 +121,6 @@
     border: none;
   }
   .calendar {
-    display: flex;
+    margin-left: 0px;
   }
 }
