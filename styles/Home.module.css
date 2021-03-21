@@ -1,0 +1,108 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+}
+
+.robothead {
+  font-size: 100px;
+  vertical-align: middle;
+  position: relative;
+  line-height: 0px;
+  margin-bottom: 5px;
+}
+
+.speechbubble {
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  max-width: 600px;
+  padding: 10px;
+  margin: 3em;
+  background-color:#FBC6CA;
+  color: #190933;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 10px solid #F9C846;
+}
+
+.robotvoice {
+  font-size: 30px;
+  margin: 15px;
+  text-align: center;
+}
+
+.question {
+  color: #E24E1B;
+  font-weight: bolder;
+  font-size: 38px;
+}
+
+.answerList {
+  list-style: none;
+}
+
+.answerListItem {
+  list-style: none;
+  margin-left: -50px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.food {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.calendar {
+  display: flex;
+}
+
+.dateInput {
+  margin-top: 10px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 350px) {
+  .speechbubble {
+    padding: 1px;
+    margin: 0em;
+    margin-top: 3em;
+    border: none;
+  }
+
+}
