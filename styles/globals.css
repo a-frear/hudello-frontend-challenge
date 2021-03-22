@@ -3,7 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Nunito", sans-serif;
-  background: #b084cc;
+  /* background: #b084cc; */
+  background-image: linear-gradient(to right, #b084cc ,#d8e2dc);
   text-align: center;
 }
 

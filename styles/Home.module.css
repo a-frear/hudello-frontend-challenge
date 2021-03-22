@@ -25,7 +25,7 @@
 
 .title {
   margin: 0;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -53,14 +53,14 @@
 }
 
 .robotvoice {
-  font-size: 30px;
+  font-size: 24px;
   margin: 15px;
   text-align: center;
 }
 
 .question {
   font-weight: bolder;
-  font-size: 38px;
+  font-size: 30px;
   margin-top: -10px;
 }
 
@@ -73,14 +73,14 @@
   list-style: none;
   margin-left: -40px;
   padding: 10px;
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
-  color: #440381;
+  color: #40476d;
   font-weight: bold;
 }
 
 .food {
-  font-size: 50px;
+  font-size: 40px;
   padding: 10px;
 }
 
@@ -107,10 +107,11 @@
   align-items: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .calendar {
     margin-left: 20px;
   }
+
 }
 
 @media (max-width: 350px) {
