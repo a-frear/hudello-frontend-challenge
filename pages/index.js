@@ -20,10 +20,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <p className={styles.robothead}>🤖</p>
-        <section className={styles.speechbubble}>
+        <p className={styles.robotHead}>🤖</p>
+        <section className={styles.box}>
           <h1 className={styles.title}>Hey there!</h1>
-          <p className={styles.robotvoice}>
+          <p className={styles.boxText}>
             My name is <span>Hudello Bot.</span>
           </p>
           <ul className={styles.answerList}>
